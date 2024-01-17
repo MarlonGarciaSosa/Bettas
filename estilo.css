@@ -74,12 +74,14 @@ header{
         display: block;
     }
     .bettas-section__div {
-        margin: 5rem 6rem 0 0;
+        margin: 1rem 2rem 0 0;
         display: inline-block;
+        width: 20%;
+        height: 100%;
     }
     .bettas-section__div__img {
-        width: 8rem;
-        height: 6rem;
+        width: 100%;
+        height: 100%;
         display: flex;
     } 
 }
@@ -95,14 +97,16 @@ header{
     }   
     .bettas-section {
         display: block;
-    }
+   }
     .bettas-section__div {
         margin: 5rem 6rem 0 0;
         display: inline-block;
+        width: 20%;
+        height: 100%;
     }
     .bettas-section__div__img {
-        width: 20rem;
-        height: 15rem;
+        width: 100%;
+        height: 100%;
         display: flex;
     } 
 }
