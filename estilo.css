@@ -1,0 +1,96 @@
+* {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 2rem;
+    font-family: Century, Century Gothic,Arial,sans-serif;
+    color: gray;
+}
+
+html {
+    background-color: black;
+}
+
+/**header**/
+header{
+    background-color: #333;
+}
+
+.header-section__table__img{
+    width: 2rem;
+}
+
+.header-nav__table {
+    background-color: rgb(74, 74, 74);
+}
+
+.header-nav__table th{
+    border: 3px solid #444;
+    border-collapse: collapse;
+}
+
+.header-nav__table__link {
+    color: rgb(78, 78, 248);
+}
+
+.header-nav__table__link:hover {
+    background-color: rgb(100,100,100) ;
+}
+
+.header-section #caballero{
+    background-color: #333;
+    width: 3rem;
+    height: 4rem;
+}
+
+.header-section #sol{
+    background-color: #333;
+    width: 2rem;
+    height: 2rem;
+}
+
+/**main**/
+.bettas-section__div{
+    background-color: rgb(74, 74, 74);
+}
+
+/**Celular**/
+@media (max-width: 767px) {
+    * {
+        font-size: 1.25rem;
+    }
+    h1 {
+        font-size: 1.40rem;
+    }
+    h2 {
+        font-size: 1.30rem;
+    }
+    .bettas-section__div__img {
+        width: 8rem;
+        height: 6rem;
+    }
+}
+
+/**Tablet**/
+@media (min-width: 768px) and (max-width: 990px) {}
+
+/**PC**/
+@media (min-width: 991px) {
+    #main-header-section__betta-logo {
+        width: 100%;
+        height: 100%;
+    }   
+    .bettas-section {
+        display: block;
+    }
+    .bettas-section__div {
+        margin: 5rem 6rem 0 0;
+        display: inline-block;
+    }
+    .bettas-section__div__img {
+        width: 20rem;
+        height: 15rem;
+        display: flex;
+    } 
+}
