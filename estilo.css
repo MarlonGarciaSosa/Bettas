@@ -66,10 +66,22 @@ header{
     h2 {
         font-size: 1.30rem;
     }
+    #main-header-section__betta-logo {
+        width: 100%;
+        height: 100%;
+    }   
+    .bettas-section {
+        display: block;
+    }
+    .bettas-section__div {
+        margin: 5rem 6rem 0 0;
+        display: inline-block;
+    }
     .bettas-section__div__img {
         width: 8rem;
         height: 6rem;
-    }
+        display: flex;
+    } 
 }
 
 /**Tablet**/
