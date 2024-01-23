@@ -13,42 +13,54 @@ html {
 }
 
 /**header**/
-header{
+header, header *{
+    background-color: #333;   
+}
+.header{
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+
+/**Primera sección**/
+.header__section{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 6px;
+}
+.header__section #caballero{
     background-color: #333;
-}
-
-.header-section__table__img{
-    width: 2rem;
-}
-
-.header-nav__table {
-    background-color: rgb(74, 74, 74);
-}
-
-.header-nav__table th{
-    border: 3px solid #444;
-    border-collapse: collapse;
-}
-
-.header-nav__table__link {
-    color: rgb(78, 78, 248);
-}
-
-.header-nav__table__link:hover {
-    background-color: rgb(100,100,100) ;
-}
-
-.header-section #caballero{
-    background-color: #333;
+    display: inline;
     width: 3rem;
     height: 4rem;
 }
-
-.header-section #sol{
+.header__section #sol{
     background-color: #333;
+    display: inline;
     width: 2rem;
     height: 2rem;
 }
+
+
+/**Segunda nav**/
+.header__nav{
+    display: block;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.header__nav__link{
+    display: inline;
+    width: 20%;
+    background-color: rgb(74, 74, 74);
+    color: rgb(78, 78, 248);    
+    border: 3px solid #444;
+}
+.header__nav__link:hover {
+    background-color: rgb(100,100,100);
+}
+
 
 /**main**/
 .bettas-section__div{
