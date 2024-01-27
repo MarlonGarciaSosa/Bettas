@@ -4,20 +4,17 @@
     margin: 0 auto;
     padding: 0;
     font-family: Century, Arial, sans-serif;
-    color: gray;
 }
 
 html {
-    background-color: #333;
     padding-top: 111.2px;
-
 }
 
 
 
 
 /**header**/
-header, header *{
+.header, .header *{
     background-color: #333;   
 }
 .header{
@@ -33,13 +30,11 @@ header, header *{
     padding: 5px;
 }
 .header__section #caballero{
-    background-color: #333;
     display: inline;
     width: 3rem;
     height: 4rem;
 }
 .header__section #sol{
-    background-color: #333;
     display: inline;
     width: 2rem;
     height: 2rem;
@@ -51,13 +46,12 @@ header, header *{
     background-color: rgb(100,100,100);
 }
 .header__nav::-webkit-scrollbar {
-    width: 95%;
     height: 10px;
     border-radius: 5px;
-    background-color: rgb(63, 176, 213);
+    background-color: rgb(0, 187, 255);
 }
 .header__nav::-webkit-scrollbar-thumb {
-    background-color:  rgb(78, 78, 248);
+    background-color:  rgb(40, 157, 199);
     border-radius: 5px;
 }
 /**Celular**/
@@ -73,7 +67,7 @@ header, header *{
         display: inline;
         min-width: 120px;
         background-color: rgb(74, 74, 74);
-        color: rgb(78, 78, 248);    
+        color: rgb(0, 187, 255); 
         border: 3px solid #444;
         min-width: 20%;
         margin: 0 2%;
@@ -82,7 +76,6 @@ header, header *{
         margin-top: -120.8px;
     }
     html {
-        background-color: #333;
         padding-top: 120.8px;
     }
 
@@ -99,7 +92,7 @@ header, header *{
         display: inline;
         min-width: 120px;
         background-color: rgb(74, 74, 74);
-        color: rgb(78, 78, 248);    
+        color: rgb(0, 187, 255);    
         border: 3px solid #444;
         min-width: 15%;
     }
@@ -116,7 +109,7 @@ header, header *{
         display: inline;
         min-width: 120px;
         background-color: rgb(74, 74, 74);
-        color: rgb(78, 78, 248);    
+        color: rgb(0, 187, 255);     
         border: 3px solid #444;
         min-width: 15%;
     }
@@ -124,40 +117,7 @@ header, header *{
 
 
 
-
-
-/**main**/
-main {
-    background-color: black;
-}
-
-
-/**Primera sección**/
-.main__header__betta-logo {
+/**Main**/
+.img {
     width: 100%;
-    height: 100%;
-}
-.main__header__p{
-    display: inline;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-}
-
-
-/**Segunda sección**/
-.bettas__section {
-    display: block;
-}
-.bettas__section__div{
-    display: inline-block;    
-    background-color: rgb(74, 74, 74);
-    margin: 5rem 6rem 0 0;
-    width: 20%;
-    height: 100%;    
-}
-.bettas__section__div__img {
-    width: 100%;
-    height: 100%;
-    display: flex;
 }
